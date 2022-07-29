@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Poppins:wght@200;600&family=Roboto:wght@900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #f5f2f0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-container {
+    display: flex;
+    gap: 50px;
+    width: 100vw;
+}
+
+.girl-img {
+    height: 118vh;
+    width: 35vw;
+}
+
+.h-line {
+    width: 20vw;
+}
+
+.logo {
+    width: 90px;
+    height: 30px;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.nav-line {
+    margin-top: 30px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-item {
+    color: #000000;
+}
+
+.front-section {
+    margin-top: 40px;
+}
+
+.front-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-img {
+    width: 435px;
+}
+
+.quotes {
+    width: 30px;
+}
+
+.dance {
+    width: 340px;
+    height: 190px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.icon {
+    width: 25px;
+
+}
+
+.package {
+    font-size: 18px;
+    padding: 15px 40px;
+    color: #ffffff;
+    background-color: #000000d0;
+    border: 1px solid #000000d0;
+    margin-left: 520px;
+    margin-top: 20px;
+}
+
+.ingredient {
+    padding-top: 140px;
+    display: inline-block;
+    color: rgb(130, 130, 130);
+    font-size: 30px;
+    margin-left: -70px;
+}
+
+.down-arrow {
+    height: 100px;
+    width: 50px;
+    padding-top: 80px;
+}
+
+.last-section {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+}
+
+.ul-items {
+    font-size: 18px;
+    color: #00000093;
+}
+
+.spl-item {
+    color: #000000;
+}
+
+
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.para-content {
+    color: #000000;
+    font-size: 19px;
+    font-weight: 500;
+}
