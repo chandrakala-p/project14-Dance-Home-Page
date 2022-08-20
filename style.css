@@ -147,3 +147,70 @@
     font-size: 19px;
     font-weight: 500;
 }
+
+
+@media screen and (max-width:750px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    img.girl-img {
+        width: 100%;
+        padding-top: 90px;
+        height: 600px;
+
+    }
+
+    .nav-line {
+        display: none;
+    }
+
+    .front-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ingredient {
+        padding: 0;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin-top: 30px;
+    }
+
+    .package {
+        margin: 0;
+        margin-top: 40px;
+
+    }
+
+    .last-section {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .down-arrow {
+        display: none;
+    }
+
+    .list {
+        list-style: none;
+    }
+}
