@@ -213,4 +213,25 @@
     .list {
         list-style: none;
     }
+
+    .text-img {
+        width: 100%;
+    }
+
+    .content-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .para-content {
+        width: 100%;
+    }
+
+    img.dance {
+        width: 100%;
+    }
+
+    img.quotes {
+        display: none;
+    }
 }
